@@ -24,23 +24,20 @@ import cuartohabitaciontipoB from "./imahotel/cuartohabitaciontipoB.jpg";
 import literahabitaciontipoB from "./imahotel/literahabitaciontipoB.jpg";
 import cuartohabitaciontipoc from "./imahotel/cuartohabitaciontipoc.jpg";
 import cuarto2habitaciontipoc from "./imahotel/cuarto2habitaciontipoc.jpg";
-import habitacion5tipoC  from "./imahotel/habitacion5tipoC .jpg";
-import habitacion5TipoA2 from "./imahotel/habitacion5TipoA2.jpg";
-import banohabitaciontipo4 from "./imahotel/banohabitaciontipo4.jpg";
-
-
+import habitacion5tipoC from "./imahotel/habitacion5tipoC .jpg";
 
 export default [
+ 
   {
     sys: {
       id: "1"
     },
-    fields: {
+      fields: {
       name: "Suite Familiar #1",
       slug: "suite-familiar",
-      type: "Individual",
+      type: "Familiar",
       price: 200,
-      //size: 200,
+      size: 200,
       capacity: 5,
       pets: false,
       breakfast: true,
@@ -52,7 +49,6 @@ export default [
         "Seguridad 24h",
         "Internet",
         "Camas confortables",
-
       ],
      
       extras:["No hay nota para esta habitacion"],
@@ -95,7 +91,7 @@ export default [
     fields: {
       name: "Suite Familiar #2",
       slug: "Suite-familiar2",
-      type: "Individual",
+      type: "Familiar",
       price: 115,
       size: 235,
       capacity: 6,
@@ -152,7 +148,7 @@ export default [
     fields: {
       name: "Suite Familiar #3",
       slug: "suite-familiar 3",
-      type: "Individual",
+      type: "Familiar",
       price: 270,
       size: 300,
       capacity: 7,
@@ -207,7 +203,7 @@ export default [
     fields: {
       name: "Habitación #5 tipo A",
       slug: "habitacion5-tipoA",
-      type: "Individual",
+      type: "Triple",
       price: 90,
       size: 400,
       capacity: 3,
@@ -263,7 +259,7 @@ export default [
     fields: {
       name: "Habitación#5 tipo B",
       slug: "habitacion5-tipoB",
-      type: "Doble",
+      type: "Triple",
       price: 90,
       size: 300,
       capacity: 3,
@@ -320,7 +316,7 @@ export default [
     fields: {
       name: "Habitación #5 tipo C",
       slug: "habitacion5-tipoC",
-      type: "Doble",
+      type: "Triple",
       price: 100,
       size: 300,
       capacity: 4,
@@ -375,7 +371,7 @@ export default [
     fields: {
       name: "Habitacion Tipo A",
       slug: "double-standard",
-      type: "Doble",
+      type: "Triple",
       price: 150,
       size: 400,
       capacity: 5,
@@ -430,7 +426,7 @@ export default [
     fields: {
       name: "Habitacion Tipo B",
       slug: "habitaciontipob",
-      type: "Doble",
+      type: "Triple",
       price: 100,
       size: 400,
       capacity: 4,
@@ -488,7 +484,7 @@ export default [
     fields: {
       name: "Habitacion Tipo C",
       slug: "habitaciontipoc",
-      type: "Doble",
+      type: "Triple",
       price: 100,
       size: 400,
       capacity: 4,
@@ -660,7 +656,7 @@ export default [
     fields: {
       name: "Suite Doble #3",
       slug: "habitacion-triple1",
-      type: "Familiar",
+      type: "Doble",
       price: 115,
       size: 500,
       capacity: 3,
@@ -717,7 +713,7 @@ export default [
     fields: {
       name: "Habitacion Triple #1",
       slug: "family-basic",
-      type: "Familiar",
+      type: "Triple",
       price: 75,
       size: 550,
       capacity: 3,
@@ -775,7 +771,7 @@ export default [
     fields: {
       name: "Habitacion Triple #2",
       slug: "family-standard",
-      type: "Familiar",
+      type: "Triple",
       price: 75,
       size: 600,
       capacity: 5,
@@ -833,7 +829,7 @@ export default [
     fields: {
       name: "Habitacion Triple #3",
       slug: "habitacion-triple-3",
-      type: "Familiar",
+      type: "Triple",
       price: 95,
       size: 700,
       capacity: 4,
